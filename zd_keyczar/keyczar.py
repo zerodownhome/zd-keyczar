@@ -29,14 +29,14 @@ import io
 
 from abc import ABCMeta
 
-from app.keyczar import errors
-from app.keyczar import keydata
-from app.keyczar import keyinfo
-from app.keyczar import keys
-from app.keyczar import readers
-from app.keyczar import writers
-from app.keyczar import util
-from app.keyczar import constants
+from keyczar import errors
+from keyczar import keydata
+from keyczar import keyinfo
+from keyczar import keys
+from keyczar import readers
+from keyczar import writers
+from keyczar import util
+from keyczar import constants
 
 
 class Keyczar(object, metaclass=ABCMeta):

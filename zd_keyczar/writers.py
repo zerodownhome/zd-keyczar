@@ -24,8 +24,8 @@ import os
 
 from abc import ABCMeta, abstractmethod, abstractproperty
 
-from app.keyczar import errors
-from app.keyczar import util
+from keyczar import errors
+from keyczar import util
 
 def CreateWriter(location):
   """Factory function for Writers

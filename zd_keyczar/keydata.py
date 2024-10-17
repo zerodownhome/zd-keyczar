@@ -24,8 +24,8 @@ Encodes the two classes storing data about keys:
 
 import json
 
-from app.keyczar import errors
-from app.keyczar import keyinfo
+from keyczar import errors
+from keyczar import keyinfo
 
 class KeyMetadata(object):
   """Encodes metadata for a keyset with a name, purpose, type, and versions."""

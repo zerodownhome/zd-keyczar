@@ -45,8 +45,8 @@ from pyasn1.codec.der import decoder
 from pyasn1.codec.der import encoder
 from pyasn1.type import univ
 
-from app.keyczar import errors as kzr_errors
-from app.keyczar import constants
+from keyczar import errors as kzr_errors
+from keyczar import constants
 
 HLEN = sha1().digest_size  # length of the hash output
 

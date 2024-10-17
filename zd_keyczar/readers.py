@@ -24,11 +24,11 @@ import os
 
 from abc import ABCMeta, abstractmethod, abstractproperty
 
-from app.keyczar import errors
-from app.keyczar import keydata
-from app.keyczar import keyinfo
-from app.keyczar import keys
-from app.keyczar import util
+from keyczar import errors
+from keyczar import keydata
+from keyczar import keyinfo
+from keyczar import keys
+from keyczar import util
 
 def CreateReader(location):
   """Factory function for Reader's
