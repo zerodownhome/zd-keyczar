@@ -43,10 +43,10 @@ except ImportError:
 # overideable crypt library selection
 ACTIVE_CRYPT_LIB = 'm2crypto' if EVP else 'pycrypto'
 
-from keyczar import errors
-from keyczar import keyinfo
-from keyczar import util
-from keyczar import constants
+from . import errors
+from . import keyinfo
+from . import util
+from . import constants
 
 #TODO: Note that simplejson deals in Unicode strings. So perhaps we should
 #modify all Read() methods to wrap data obtained from simplejson with str().
